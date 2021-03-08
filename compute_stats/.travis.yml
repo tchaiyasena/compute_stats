@@ -1,0 +1,9 @@
+language: python
+script:
+	-unittest
+deploy:
+	provider: pypi
+	username: ...
+	password: ...
+	on:
+		branch: master
